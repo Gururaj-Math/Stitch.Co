@@ -1,8 +1,11 @@
+  // json-server -2 -p (portno) path
+
 import banner from "./assets/banner.png";
 import { createSignal } from "solid-js";
 import { Routes, Route, A } from "@solidjs/router";
 import Home from './pages/Home'
 import Cart from './pages/Cart'
+import Product from "./pages/Product";
 
 function App() {
   const [darkTheme, setDarkTheme] = createSignal(false);
@@ -31,13 +34,13 @@ function App() {
         <A href="/cart">Cart</A>
         </div>
       </header>
-      
+
       <img class="rounded-xl w-full " src={banner}></img>
 
       <Routes>
         <Route path="/" component={Home}></Route>
         <Route path="/cart" component={Cart}></Route>
-        <Route path="/" component={Home}></Route>
+        <Route path="/product/:id" component={Product}></Route>
       </Routes>
     </div>
   );

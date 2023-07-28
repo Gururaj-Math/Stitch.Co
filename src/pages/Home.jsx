@@ -1,5 +1,6 @@
 import { createResource } from "solid-js"
 import Card from "../components/Card"
+import { A } from '@solidjs/router'
 
 const Home = () => {
 
@@ -22,7 +23,7 @@ const Home = () => {
                     <h2 class="my-3 font-bold">
                         {product.title}
                     </h2>
-                    <button class="btn"> Add To Cart </button>
+                    <A href={`/product/${product.id}`} class="btn">View Product</A>
                 </Card>
             )}
         </For>
