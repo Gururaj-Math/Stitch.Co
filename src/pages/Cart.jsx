@@ -1,6 +1,6 @@
 import Card
  from "../components/Card"
-const Cart = () => {
+const Cart = (props) => {
   return (
     <div class="max-w-md my-8 mx-auto">
         <Card class="rounded-md">

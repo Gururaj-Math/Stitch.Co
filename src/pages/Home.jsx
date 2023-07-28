@@ -1,31 +1,36 @@
+import { createResource } from "solid-js"
 import Card from "../components/Card"
 
-const Home = (props) => {
+const Home = () => {
+
+    const fetchProducts = async ()=>{
+        const res = await fetch(' http://localhost:4000/products')
+
+        return res.json()
+    }
+
+    const [products] = createResource(fetchProducts)
+
   return (
-    <div>
+    <Show when={products()} fallback={<p>Loading...</p>}>
       <div class="grid grid-cols-4 gap-10 m-auto my-4">
-        <Card>
-            <h2>Card Component</h2>
-            <p>this is Card Component</p>
-            <button class="btn">Click</button>
-        </Card>
-        <Card>
-            <h2>Card Component</h2>
-            <p>this is Card Component</p>
-            <button class="btn">Click</button>
-        </Card>
-        <Card>
-            <h2>Card Component</h2>
-            <p>this is Card Component</p>
-            <button class="btn">Click</button>
-        </Card>
-        <Card>
-            <h2>Card Component</h2>
-            <p>this is Card Component</p>
-            <button class="btn">Click</button>
-        </Card>
+    
+        <For each={products()}>
+            {(product) => (
+                <Card>
+                    <img src={product.img} />
+                    <h2 class="my-3 font-bold">
+                        {product.title}
+                    </h2>
+                    <button class="btn"> Add To Cart </button>
+                </Card>
+            )}
+        </For>
+
+        <p>{console.log(products(), products.loading)}</p>
+
       </div>
-    </div>
+    </Show>
   )
 }
 
