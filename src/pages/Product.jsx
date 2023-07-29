@@ -34,17 +34,17 @@ const Product = () => {
         }
     }
   return (
-    <div class='my-7'>   
+    <div class='my-7 '>   
         <Show when={product()} fallback={<p>Loading...</p>}>
-            <div class="grid grid-cols-5 gap-7">
-                <div class="col-span-2">
-                    <img src={product().img} />
+            <div class="grid grid-cols-5 gap-10 bg-white rounded-xl shadow-sm shadow-offset">
+                <div class="col-span-1">
+                    <img src={product().img} class='h-80 rounded-xl'/>
                 </div>
 
-                <div class='col-span-3'>
-                    <h2 class='text-3xl font-bold mb-7'>{product().title}</h2>
+                <div class='col-span-3 ml-4 mt-4'>
+                    <h2 class='text-3xl font-bold mb-5'>{product().title}</h2>
                     <p>{product().description}</p>
-                    <p class='my-7 text-2xl'>Only ${product().price}</p>
+                    <p class='my-4 text-2xl'>Only ${product().price}</p>
                     <button class='btn' onclick={addProduct} disabled={adding()}>Add To Cart</button>
 
                     <Show when={adding()}>

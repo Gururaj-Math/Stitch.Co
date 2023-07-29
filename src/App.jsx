@@ -7,6 +7,9 @@ import Home from './pages/Home'
 import Cart from './pages/Cart'
 import Product from "./pages/Product";
 import { useCartContext } from "./context/CartContext";
+import Footer from "./components/Footer";
+import Shirts from "./pages/Shirts";
+import Jeans from "./pages/Jeans";
 
 function App() {
   const [darkTheme, setDarkTheme] = createSignal(false);
@@ -36,10 +39,12 @@ function App() {
         >
           light_mode
         </span>
-        <h1 class="text-2xl">Clothing Shop</h1>
+        <h1 class="text-4xl font-bold tracking-wider">Stitch.Co</h1>
         </div>
         <div class="flex items-center gap-10 mx-5">
         <A href="/">Home</A>
+        <A href="/shirts">Shirts</A>
+        <A href="/jeans">Jeans</A>
         <A href="/cart">Cart ({quantity()})</A>
         </div>
       </header>
@@ -50,7 +55,10 @@ function App() {
         <Route path="/" component={Home}></Route>
         <Route path="/cart" component={Cart}></Route>
         <Route path="/product/:id" component={Product}></Route>
+        <Route path="/shirts" component={Shirts}></Route>
+        <Route path="/jeans" component={Jeans}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
