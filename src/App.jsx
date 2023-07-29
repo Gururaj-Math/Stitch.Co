@@ -6,6 +6,7 @@ import { Routes, Route, A } from "@solidjs/router";
 import Home from './pages/Home'
 import Cart from './pages/Cart'
 import Product from "./pages/Product";
+import { useCartContext } from "./context/CartContext";
 
 function App() {
   const [darkTheme, setDarkTheme] = createSignal(false);
@@ -13,6 +14,14 @@ function App() {
   const toggleTheme = () => {
     setDarkTheme(!darkTheme());
   };
+
+  const { items } = useCartContext()
+
+  const quantity = () => {
+    return items.reduce((acc, current)=>{
+      return acc + current.quantity
+    }, 0)
+  }
 
   return (
     <div class="conatiner m-auto font-custom">
@@ -31,7 +40,7 @@ function App() {
         </div>
         <div class="flex items-center gap-10 mx-5">
         <A href="/">Home</A>
-        <A href="/cart">Cart</A>
+        <A href="/cart">Cart ({quantity()})</A>
         </div>
       </header>
 

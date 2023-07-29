@@ -1,5 +1,5 @@
 import {useParams} from '@solidjs/router'
-import { createResource } from 'solid-js'
+import { createResource, createSignal } from 'solid-js'
 import Loading from '../components/Loading'
 import { useCartContext } from '../context/CartContext'
 
@@ -16,7 +16,12 @@ const Product = () => {
 
     const { items, setItems } = useCartContext()
 
+    const [ adding, setAdding ] = createSignal(false)
+
     const addProduct = () =>{
+
+        setAdding(true)
+        setTimeout(() => setAdding(false), 400)
         //check if product exists
         const exists = items.find(p => p.id === product().id)
 
@@ -40,8 +45,13 @@ const Product = () => {
                     <h2 class='text-3xl font-bold mb-7'>{product().title}</h2>
                     <p>{product().description}</p>
                     <p class='my-7 text-2xl'>Only ${product().price}</p>
+                    <button class='btn' onclick={addProduct} disabled={adding()}>Add To Cart</button>
 
-                    <button class='btn' onclick={addProduct}>Add To Cart</button>
+                    <Show when={adding()}>
+                        <div class='m-2 p-2 border-amber-500 border-2 rounded-md inline-block font-bold'>
+                            {product().title} Was Added To Your Cart!
+                        </div>
+                    </Show> 
                 </div>
             </div>
         </Show>
