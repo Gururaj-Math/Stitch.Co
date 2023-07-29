@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.8.2",
+    "antd": "^5.7.3",
     "solid-js": "^1.7.6"
   }
 }

@@ -1,4 +1,4 @@
-  // json-server -2 -p (portno) path
+  // json-server -w -p (portno) path
 
 import banner from "./assets/banner.png";
 import { createSignal } from "solid-js";

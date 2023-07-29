@@ -17,4 +17,5 @@ body{
     rounded-md
     border-2
     border-amber-600
+    hover:bg-amber-500 duration-300
 }
