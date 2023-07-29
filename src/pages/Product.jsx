@@ -1,6 +1,5 @@
 import {useParams} from '@solidjs/router'
 import { createResource, createSignal } from 'solid-js'
-import Loading from '../components/Loading'
 import { useCartContext } from '../context/CartContext'
 
 const fetchProduct = async (id)=>{
@@ -36,7 +35,7 @@ const Product = () => {
   return (
     <div class='my-7 '>   
         <Show when={product()} fallback={<p>Loading...</p>}>
-            <div class="grid grid-cols-5 gap-10 bg-white rounded-xl shadow-sm shadow-offset">
+            <div class="grid grid-cols-5 gap-10 bg-white rounded-xl shadow-sm shadow-offset border-gray-100">
                 <div class="col-span-1">
                     <img src={product().img} class='h-80 rounded-xl'/>
                 </div>

@@ -10,6 +10,9 @@ import { useCartContext } from "./context/CartContext";
 import Footer from "./components/Footer";
 import Shirts from "./pages/Shirts";
 import Jeans from "./pages/Jeans";
+import Sproduct from "./pages/Sproduct"
+import Jproduct from "./pages/Jproduct"
+import Order from "./components/Order";
 
 function App() {
   const [darkTheme, setDarkTheme] = createSignal(false);
@@ -48,15 +51,17 @@ function App() {
         <A href="/cart">Cart ({quantity()})</A>
         </div>
       </header>
-
-      <img class="rounded-xl w-full " src={banner}></img>
-
+      
+      <img class="rounded-xl w-full " src={banner}> </img>
       <Routes>
         <Route path="/" component={Home}></Route>
         <Route path="/cart" component={Cart}></Route>
-        <Route path="/product/:id" component={Product}></Route>
         <Route path="/shirts" component={Shirts}></Route>
         <Route path="/jeans" component={Jeans}></Route>
+        <Route path="/product/:id" component={Product}></Route>
+        <Route path="/Sproduct/:id" component={Sproduct}></Route>
+        <Route path="/Jproduct/:id" component={Jproduct}></Route>
+        <Route path="/order" component={Order}></Route>
       </Routes>
       <Footer />
     </div>

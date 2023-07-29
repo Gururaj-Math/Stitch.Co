@@ -14,12 +14,13 @@ const Home = () => {
 
   return (
     <Show when={products()} fallback={<p>Loading...</p>}>
+    <h1 class="my-8 text-center text-2xl border-gray-100 border-b-4 pb-4">Trending Products</h1>
       <div class="grid grid-cols-4 gap-10 m-auto my-4">
     
         <For each={products()}>
             {(product) => (
                 <Card>
-                    <img src={product.img} />
+                    <img src={product.img} class="rounded-xl"/>
                     <h2 class="my-3 font-bold">
                         {product.title}
                     </h2>
@@ -27,9 +28,7 @@ const Home = () => {
                 </Card>
             )}
         </For>
-
         <p>{console.log(products(), products.loading)}</p>
-
       </div>
     </Show>
   )

@@ -10,25 +10,26 @@ const Jeans = () => {
         return res.json()
     }
 
-    const [Jeans] = createResource(fetchJeans)
+    const [jeans] = createResource(fetchJeans)
 
   return (
-    <Show when={Jeans()} fallback={<p>Loading...</p>}>
+    <Show when={jeans()} fallback={<p>Loading...</p>}>
+    <h1 class="my-8 text-center text-2xl border-gray-100 border-b-4 pb-4">Men's Jeans</h1>
       <div class="grid grid-cols-4 gap-10 m-auto my-4">
     
-        <For each={Jeans()}>
-            {(Jeans) => (
+        <For each={jeans()}>
+            {(jeans) => (
                 <Card>
-                    <img src={Jeans.img} />
+                    <img src={jeans.img} class="rounded-xl"/>
                     <h2 class="my-3 font-bold">
-                        {Jeans.title}
+                        {jeans.title}
                     </h2>
-                    <A href={`/Jeans/${Jeans.id}`} class="btn">View Product</A>
+                    <A href={`/Jproduct/${jeans.id}`} class="btn">View Product</A>
                 </Card>
             )}
         </For>
 
-        <p>{console.log(Jeans(), Jeans.loading)}</p>
+        <p>{console.log(jeans(), jeans.loading)}</p>
 
       </div>
     </Show>

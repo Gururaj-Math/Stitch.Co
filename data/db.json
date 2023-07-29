@@ -60,117 +60,117 @@
   "Shirts":[
     {
       "id": 9,
-      "title": "Cotton Shirt, Black",
+      "title": "Cotton Shirt, White",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/2NgQ1ZAAW-l7xCRHhBDvI1B1C8U/800/800.jpg"
+      "img": "https://img.freepik.com/free-photo/casual-white-blouse-women-rsquo-s-fashion_53876-101510.jpg?w=740&t=st=1690626634~exp=1690627234~hmac=210a321e7343856d7c11051a2c08e90b16410427c79d0df925f8cef2b67da047"
     },
     {
       "id": 10,
-      "title": "T-Shirt, White",
+      "title": "Half Sleeve, Beige",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/wcNwkS4Y-rtOKAuqwCsYaOw8Cv8/800/800.jpg"
+      "img": "https://img.freepik.com/free-photo/man-beige-shirt-pants-casual-wear-fashion_53876-102165.jpg?w=740&t=st=1690626692~exp=1690627292~hmac=5ab816cc2d48dacf2295b58751b96f429cfaa0aaf34f54b731dde6763f1a5282"
     },
     {
       "id": 11,
-      "title": "Hoodie, Black",
+      "title": "Cotton Shirt, Blue",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 21,
-      "img": "https://mockup-api.teespring.com/v3/image/_IvBZ0jhry5FAXEOWFw3ynpo8ig/800/800.jpg"
+      "img": "https://img.freepik.com/premium-photo/classic-shirt-mockup-isolated-white-background_236836-24271.jpg?w=740"
     },
     {
       "id": 12,
-      "title": "Hoodie, White",
+      "title": "T-Shirt, Green",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 21,
-      "img": "https://mockup-api.teespring.com/v3/image/NGjr8zyNw7FCHuQYoryOEcl4GNk/800/800.jpg"
+      "img": "https://img.freepik.com/premium-photo/mockup-clothing-mint-green-tshirt-blank_856660-7607.jpg?w=740"
     },
     {
       "id": 13,
-      "title": "Cushion",
+      "title": "Multi Colour T-shirt",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 7,
-      "img": "https://mockup-api.teespring.com/v3/image/btGArnfFfvESjsCyqh-RcuO3rr8/800/800.jpg"
+      "img": "https://img.freepik.com/premium-photo/fashion-black-mockup-tshirt-blank_856660-2963.jpg?w=740"
     },
     {
       "id": 14,
-      "title": "Tote Bag",
+      "title": "Printed T-shirt",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 8,
-      "img": "https://mockup-api.teespring.com/v3/image/9DxUJ2cP_LXHylWgTmXs6z84NXY/800/800.jpg"
+      "img": "https://img.freepik.com/premium-photo/fashion-black-mockup-tshirt-blank_856660-2962.jpg?w=740"
     },
     {
       "id": 15,
-      "title": "Cup",
+      "title": "Sweat-Shirt, White",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/eTcnVM9q_1-2jF_0bJ4NBa_rFKM/800/800.jpg"
+      "img": "https://img.freepik.com/free-photo/simple-white-crew-neck-unisex-streetwear-apparel_53876-123185.jpg?w=740&t=st=1690627006~exp=1690627606~hmac=048b558542db3749d5174e7f23e8f9a1e625cb479b263374ae4efa23a1b983da"
     },
     {
       "id": 16,
-      "title": "Alright Then Gang T-Shirt",
+      "title": "Shirt, White-Black",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/aM870qcrxVLvHLnJPwu6w2olWKU/800/800.jpg"
+      "img": "https://img.freepik.com/free-photo/men-rsquo-s-white-short-sleeve-shirt-casual-apparel_53876-101497.jpg?w=740&t=st=1690627029~exp=1690627629~hmac=46c262dfdaa139030b9ec957eba0e75acca97122b63cc7e4e060b64e84aa223a"
     }
   ],
   "Jeans":[
     {
       "id": 17,
-      "title": "T-Shirt, Black",
+      "title": "Jeans, Blue",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/2NgQ1ZAAW-l7xCRHhBDvI1B1C8U/800/800.jpg"
+      "img": "https://img.freepik.com/free-photo/jeans_1203-8092.jpg?w=740&t=st=1690627274~exp=1690627874~hmac=edd2a2a6d759ba7ee17d1171cf98162357dca307af025ad881fafb2c20434bfd"
     },
     {
       "id": 18,
-      "title": "T-Shirt, White",
+      "title": "Jeans, Navy-Blue",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/wcNwkS4Y-rtOKAuqwCsYaOw8Cv8/800/800.jpg"
+      "img": "https://img.freepik.com/premium-photo/north-face-men-s-joggers-navy-blue_920356-902.jpg?w=740"
     },
     {
       "id": 19,
-      "title": "Hoodie, Black",
+      "title": "Jeans, Black",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 21,
-      "img": "https://mockup-api.teespring.com/v3/image/_IvBZ0jhry5FAXEOWFw3ynpo8ig/800/800.jpg"
+      "img": "https://img.freepik.com/premium-vector/vector-cartoon-illustration-black-denim-jeans-pants-front-view_574806-658.jpg?w=740"
     },
     {
       "id": 20,
-      "title": "Hoodie, White",
+      "title": "Jeans, Khaki",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 21,
-      "img": "https://mockup-api.teespring.com/v3/image/NGjr8zyNw7FCHuQYoryOEcl4GNk/800/800.jpg"
+      "img": "https://img.freepik.com/premium-vector/men-s-long-pant-fashion-flat-sketch-template-technical-fashion-illustration-jeans-pant-drawing_665745-23.jpg?w=740"
     },
     {
       "id": 21,
-      "title": "Cushion",
+      "title": "Shorts, Beige",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 7,
-      "img": "https://mockup-api.teespring.com/v3/image/btGArnfFfvESjsCyqh-RcuO3rr8/800/800.jpg"
+      "img": "https://img.freepik.com/free-photo/man-wearing-beige-shorts-close-up_53876-125260.jpg?w=740&t=st=1690627372~exp=1690627972~hmac=0709bf66b2c75d3251015934902fc0fd64945598e94e3e5edb0a7db14321e166"
     },
     {
       "id": 22,
-      "title": "Tote Bag",
+      "title": "Jeans, Dark-Blue",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 8,
-      "img": "https://mockup-api.teespring.com/v3/image/9DxUJ2cP_LXHylWgTmXs6z84NXY/800/800.jpg"
+      "img": "https://img.freepik.com/premium-photo/lifestyle-fashion-shopping-clothes-style-close-up-hand-holding-blue-jeans-front-view-can-use_368093-4123.jpg?w=740"
     },
     {
       "id": 23,
-      "title": "Cup",
+      "title": "Jeans, White",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/eTcnVM9q_1-2jF_0bJ4NBa_rFKM/800/800.jpg"
+      "img": "https://img.freepik.com/free-photo/portrait-fashionable-boy-against-blue-wall_23-2148184851.jpg?w=740&t=st=1690627427~exp=1690628027~hmac=87c82ffeba1157d5cf59e864ad4725154799380a56ec2559b0bdd9c6ba40b156"
     },
     {
       "id": 24,
-      "title": "Alright Then Gang T-Shirt",
+      "title": "Shorts, White",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et nesciunt tempore nobis fugit dolorum ipsam exercitationem beatae impedit, ipsum tenetur officia iste architecto eligendi illum dolores minus cumque commodi?",
       "price": 12,
-      "img": "https://mockup-api.teespring.com/v3/image/aM870qcrxVLvHLnJPwu6w2olWKU/800/800.jpg"
+      "img": "https://img.freepik.com/free-psd/white-trousers-floating-white_176382-1855.jpg?w=740&t=st=1690627461~exp=1690628061~hmac=29509b371a0708e0ad29b3ce3b0d109a9b858eb1bb8d35542f75acd4b0b6e661"
     }
   ]
 }

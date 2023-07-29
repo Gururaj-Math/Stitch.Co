@@ -20,7 +20,7 @@ export default function Cart() {
             {(item) => (
               <div class="flex items-center border-b-2">
                 <div class="ml-5 pb-4 pt-4">
-                  <img src={item.img} class="h-52"/>
+                  <img src={item.img} class="h-52 rounded-xl"/>
                 </div>
                 <div class="flex flex-col items-start ml-10">
                   <h1 class="text-2xl">{item.title}</h1>
@@ -30,7 +30,7 @@ export default function Cart() {
               </div>
             )}
           </For>
-          <h1 class="mt-4 font-bold bg-gray-100 p-4 rounded-xl text-xl">Total Cart Price : ${total()}</h1>
+          <h1 class="mt-4 font-bold bg-gray-100 p-4 rounded-xl text-xl">Total Cart Price : ${total()} <A href="/order" class="bg-amber-600 px-4 py-2 rounded-xl my-4 text-white ml-2">Buy Now</A></h1>
         </Show>
 
       </Card>

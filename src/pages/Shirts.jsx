@@ -13,17 +13,17 @@ const Shirts = () => {
     const [shirts] = createResource(fetchShirts)
 
   return (
-    <Show when={shirts()} fallback={<p>Loading...</p>}>
+    <Show when={shirts()} fallback={<></>}>
+    <h1 class="my-8 text-center text-2xl border-gray-100 border-b-4 pb-4">Men's Shirts</h1>
       <div class="grid grid-cols-4 gap-10 m-auto my-4">
-    
         <For each={shirts()}>
             {(shirts) => (
                 <Card>
-                    <img src={shirts.img} />
+                    <img src={shirts.img} class="rounded-xl"/>
                     <h2 class="my-3 font-bold">
                         {shirts.title}
                     </h2>
-                    <A href={`/shirts/${shirts.id}`} class="btn">View Product</A>
+                    <A href={`/Sproduct/${shirts.id}`} class="btn">View Product</A>
                 </Card>
             )}
         </For>
