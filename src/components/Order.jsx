@@ -18,7 +18,7 @@ export default function Order() {
           Place Your Order Now
         </h2>
         <div>
-                <div class="flex justify-center flex-col items-center mt-4 gap-5">
+                <div class="flex justify-center flex-col items-center mt-4 gap-7">
                 <input type="text" placeholder="First Name" class="border-2 border-amber-600 px-4 py-2 rounded-xl w-96"/>
                 <input type="text" placeholder="Last Name" class="border-2 border-amber-600 px-4 py-2 rounded-xl w-96"/>
                 <input type="text" placeholder="Address" class="border-2 border-amber-600 px-4 py-2 rounded-xl w-96"/>
@@ -26,21 +26,21 @@ export default function Order() {
                 </div>
                 <div class="flex justify-center items-center gap-10 my-5 h-20">
                   <input type="checkbox" id="gpay" class="hidden peer"/>
-                  <label for="gpay" class="peer-checked:border-2 border-amber-600 rounded-3xl">
+                  <label for="gpay">
                     <img
                       src="https://i.postimg.cc/kX5xfkfH/Nice-Png-pay-icon-png-7692873.png"
                       class="h-10 cursor-pointer"
                     />
                   </label>
                   <input type="checkbox" id="phonepe" class="hidden peer" />
-                  <label for="phonepe" class="peer-checked:border-2 border-amber-600 rounded-3xl">
+                  <label for="phonepe">
                     <img
                       src="https://i.postimg.cc/9fGhKgL3/pngwing-com.png"
                       class="h-10 cursor-pointer"
                     />
                   </label>
                   <input type="checkbox" id="paypal" class="hidden peer" />
-                  <label for="paypal" class="peer-checked:border-2 border-amber-600 rounded-3xl">
+                  <label for="paypal">
                     <img
                       src="https://i.postimg.cc/BvQv50qY/pngwing-com-1.png"
                       class="h-10 cursor-pointer"
@@ -68,7 +68,7 @@ export default function Order() {
                 </div>
             )}
           </For>
-          <h1 class="text-lg bg-amber-600 text-white mx-96 p-3 rounded-xl mt-3 cursor-pointer">Place Order : ${total()}</h1>
+          <h1 class="text-lg bg-amber-600 text-white mx-96 p-3 rounded-xl mt-3 cursor-pointer hover:bg-amber-500 ">Place Order : ${total()}</h1>
         </Show>
       </Card>
     </div>

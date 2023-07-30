@@ -9,6 +9,7 @@ const Home = () => {
 
         return res.json()
     }
+    
 
     const [products] = createResource(fetchProducts)
 

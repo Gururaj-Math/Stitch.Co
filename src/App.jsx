@@ -52,7 +52,7 @@ function App() {
         </div>
       </header>
       
-      <img class="rounded-xl w-full " src={banner}> </img>
+      <img class="rounded-xl w-full" src={banner}> </img>
       <Routes>
         <Route path="/" component={Home}></Route>
         <Route path="/cart" component={Cart}></Route>
